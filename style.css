@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(208, 202, 189);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+#galaria{
+    display: grid;
+    justify-content: space-between;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+div.container {
+    width: 20%;
+    box-shadow: 0 0 4px 3px grey;
+    text-align: center;
+    padding: 2em;
+    margin: 2em;
+    justify-items: center;
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+   background: #222;
+    justify-content: center;
+}
+
+.music-container {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    background: rgb(208, 202, 189);
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem #000;
+    overflow: hidden;
+    margin: 2rem;
+    flex-direction: column;
+}
+
+.image {
+    padding: 3%;
+    height: 20vw;
+    width: 30vw;
+}
+
+.image img {
+    border: 5px;
+    border-radius:30px;
+    height: 100%;
+    width: 100%;
+}
+
+.music {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.music audio {
+    width: 100%;
+    padding: 2rem;
+    border: 2px #000;
+}
+
+.music audio::-webkit-media-controls-enclosure {
+    background: none;
+}
